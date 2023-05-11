@@ -8,13 +8,14 @@
 import SwiftUI
 
 struct FruitCardView: View {
+    var fruit: Fruit
     @State private var isAnimating: Bool = false
     
     var body: some View {
         ZStack {
             VStack(spacing: 20) {
                 // TODO: Fruit Image
-                Image("blueberry")
+                Image(fruit.image)
                     .resizable()
                     .scaledToFit()
                     .shadow( // add semi transparan black shadow
@@ -25,7 +26,7 @@ struct FruitCardView: View {
                     .scaleEffect(isAnimating ? 1.0 : 0.6)
                 
                 // TODO: Fruit Title
-                Text("Blueberry")
+                Text(fruit.title)
                     .foregroundColor(Color.white)
                     .font(.largeTitle)
                     .fontWeight(.heavy)
@@ -35,7 +36,7 @@ struct FruitCardView: View {
                     )
                 
                 // TODO: Fruit Headline
-                Text("Blueberries are sweet, nutritions and wildly popular fruit all over the world.")
+                Text(fruit.headline)
                     .foregroundColor(.white)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal)
@@ -53,7 +54,7 @@ struct FruitCardView: View {
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center) //fullffill backgroun to the full entire screen
         .background(
             LinearGradient(
-                gradient: Gradient(colors: [Color("ColorBlueberryLight"), Color("ColorBlueberryDark")]),
+                gradient: Gradient(colors: fruit.gradientColors),
                 startPoint: .top, endPoint: .bottom
             )
         )
@@ -65,7 +66,7 @@ struct FruitCardView: View {
 
 struct FruitCardView_Previews: PreviewProvider {
     static var previews: some View {
-        FruitCardView()
+        FruitCardView(fruit: fruitsData[1])
             .previewLayout(.fixed(width: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/))
     }
 }
