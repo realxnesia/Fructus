@@ -38,7 +38,33 @@ struct SettingsView: View {
               }
             )
             // MARK: - SECTION 2
+            
             // MARK: - SECTION 3
+            GroupBox(
+              content: {
+                SettingsRowView(key: "Developer", value: "Dhika Aditya")
+                SettingsRowView(key: "Designer", value: "Robert Petras")
+                SettingsRowView(key: "Compatibility", value: "iOS 14")
+                SettingsRowView(
+                  key: "Website",
+                  valueLinkTitle: "SwiftUI MasterClass",
+                  valueLinkContent: "swiftuimasterclass.com"
+                )
+                SettingsRowView(
+                  key: "Twitter",
+                  valueLinkTitle: "@google.com",
+                  valueLinkContent: "google.com"
+                )
+                SettingsRowView(key: "SwiftUI", value: "2.0")
+                SettingsRowView(key: "Version", value: "1.1.0")
+              }, label: {
+                SettingsLabelView(
+                  labelText: "Application",
+                  labelImage: "app.iphone"
+                )
+              }
+            )
+            
           } //: VSTACK
           .navigationTitle("Settings")
           .navigationBarTitleDisplayMode(.large)
