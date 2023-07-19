@@ -52,6 +52,7 @@ struct FruitDetailView: View {
         }//: ScrollView
         .edgesIgnoringSafeArea(.top)
       }//: NaviagtionView
+      .navigationViewStyle(StackNavigationViewStyle()) // untuk handle behaviour view dari iPadOS
     }
 }
 

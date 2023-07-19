@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SettingsView: View {
   @Environment(\.presentationMode) var presentationMode // env properti memudahkan kita untuk membuat properti dan menyimpan value
+  @AppStorage("isOnboarding") var isOnboarding: Bool = false
   
     var body: some View {
       NavigationView {
@@ -29,7 +30,6 @@ struct SettingsView: View {
                     .font(.footnote)
                     .multilineTextAlignment(.leading)
                 }
-                
               }, label: {
                 SettingsLabelView(
                   labelText: "Fructus2",
@@ -37,7 +37,47 @@ struct SettingsView: View {
                 )
               }
             )
-            // MARK: - SECTION 2
+            // MARK: - SECTION 2: Toogle Customization
+            GroupBox(
+              content: {
+                Divider().padding(.vertical, 4)
+                
+                Text("If you wish, you can restart the application by toogle the switch in this box. That way it starts the onboarding process and you will see the wellcome screen again.")
+                  .padding(.vertical, 8)
+                  .frame(minHeight: 30)
+                  .layoutPriority(1)
+                  .font(.footnote)
+                  .multilineTextAlignment(.leading)
+                
+                Toggle(isOn: $isOnboarding) {
+                  if isOnboarding {
+                    Text("Restarted")
+                      .fontWeight(.bold)
+                      .foregroundColor(.green)
+                  } else {
+                    Text("Restart".uppercased())
+                      .fontWeight(.bold)
+                      .foregroundColor(.secondary)
+                  }
+                }
+                .padding()
+                .background(
+                  Color(UIColor.tertiarySystemBackground)
+                    .clipShape(
+                      RoundedRectangle(
+                        cornerRadius: 8,
+                        style: .continuous
+                      )
+                    )
+                )
+              },
+              label: {
+                SettingsLabelView(
+                  labelText: "Customization",
+                  labelImage: "paintbrush"
+                )
+              }
+            )
             
             // MARK: - SECTION 3
             GroupBox(

@@ -37,6 +37,7 @@ struct ContentView: View {
         }
       }
     }
+    .navigationViewStyle(StackNavigationViewStyle()) // untuk handle behaviour view dari iPadOS
   }
 }
 
