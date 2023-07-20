@@ -1,6 +1,7 @@
 # Fructus - Aplikasi Informasi Buah-Buahan
 
-![Fructus Logo](link_to_logo_image)
+![AppIcon108x108@2x](https://github.com/realxnesia/Fructus/assets/44283430/649cbc56-3c8b-4377-87ae-4f543d8e02a7)
+
 
 Fructus adalah aplikasi mobile yang menyediakan informasi lengkap tentang berbagai jenis buah-buahan, termasuk perkenalan buah, penggunaan, nutrisi yang terkandung, dan banyak lagi. Aplikasi ini dikembangkan untuk iOS 14 menggunakan bahasa pemrograman Swift 2.0 dengan implementasi berbagai fitur dan teknologi terbaru.
 Fructus dibuat ulang oleh relaxnesia/dhika untuk meningkatkan hardskill dalam pengembangan iOS/iPadOS menggunakan SwiftUI.
@@ -30,9 +31,14 @@ Berikut adalah perbedaan tampilan antara aplikasi Fructus pada perangkat iOS dan
 
 | iOS | iPadOS | Deskripsi |
 |-----|-------|-----------|
-| Gambar Tampilan iOS | Gambar Tampilan iPadOS | Onboarding |
-| Gambar Tampilan iOS | Gambar Tampilan iPadOS | Halaman Utama |
-| Gambar Tampilan iOS | Gambar Tampilan iPadOS | Halaman Detail |
+| Gambar Tampilan iOS | ![iPadMini-164-Onboarding](https://github.com/realxnesia/Fructus/assets/44283430/8499e88e-2e78-4bc5-bfdb-0df4b575728a)
+ | Onboarding |
+| Gambar Tampilan iOS | ![iPadMini-164-HalamanUtama](https://github.com/realxnesia/Fructus/assets/44283430/9ef4e578-b113-43e4-a71c-1227aab5d723)
+ | Halaman Utama |
+| Gambar Tampilan iOS |  ![iPadMini-164-Detail](https://github.com/realxnesia/Fructus/assets/44283430/86b2ebef-4b47-46ad-9bf4-525d8539bfe6)
+| Halaman Detail |
+| Gambar Tampilan iOS | ![iPadMini-164-Settings](https://github.com/realxnesia/Fructus/assets/44283430/e5fec42b-3982-4ecb-a4d3-b04bd25b3be6)
+ | Halaman Setting |
 
 ## Cara Menggunakan Aplikasi
 - Clone Project
@@ -62,5 +68,5 @@ Sebelum menginstal dan menggunakan aplikasi Fructus, pastikan perangkat Anda mem
 Terimakasih kepada Robert Petras yang telah memberikan resource yang memadai dalam pengembangan Apps ini.
 Copyright © Robert Petras All rights reserved.
 
-**Catatan**: Penting untuk memenuhi persyaratan di atas agar aplikasi Fructus dapat berfungsi secara optimal dan memberikan pengalaman pengguna yang memuaskan.
+*Catatan*: Penting untuk memenuhi persyaratan di atas agar aplikasi Fructus dapat berfungsi secara optimal dan memberikan pengalaman pengguna yang memuaskan.
 ---
