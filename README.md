@@ -31,13 +31,17 @@ Berikut adalah perbedaan tampilan antara aplikasi Fructus pada perangkat iOS dan
 
 | iOS | iPadOS | Deskripsi |
 |-----|-------|-----------|
-| Gambar Tampilan iOS | ![iPadMini-164-Onboarding](https://github.com/realxnesia/Fructus/assets/44283430/8499e88e-2e78-4bc5-bfdb-0df4b575728a)
+| ![iPhone14-Promax-Onboarding](https://github.com/realxnesia/Fructus/assets/44283430/2cfb959c-d7de-4a51-93a1-09993a4374b5)
+ | ![iPadMini-164-Onboarding](https://github.com/realxnesia/Fructus/assets/44283430/8499e88e-2e78-4bc5-bfdb-0df4b575728a)
  | Onboarding |
-| Gambar Tampilan iOS | ![iPadMini-164-HalamanUtama](https://github.com/realxnesia/Fructus/assets/44283430/9ef4e578-b113-43e4-a71c-1227aab5d723)
+| ![iPhone14-Promax-HalamanUtama](https://github.com/realxnesia/Fructus/assets/44283430/cf04823d-e6cd-49c4-8757-e2760cf88419)
+ | ![iPadMini-164-HalamanUtama](https://github.com/realxnesia/Fructus/assets/44283430/9ef4e578-b113-43e4-a71c-1227aab5d723)
  | Halaman Utama |
-| Gambar Tampilan iOS |  ![iPadMini-164-Detail](https://github.com/realxnesia/Fructus/assets/44283430/86b2ebef-4b47-46ad-9bf4-525d8539bfe6)
+| ![iPhone14-Promax-Detail](https://github.com/realxnesia/Fructus/assets/44283430/4b248fb3-315b-439a-b9ea-ca2b2475fe19)
+ |  ![iPadMini-164-Detail](https://github.com/realxnesia/Fructus/assets/44283430/86b2ebef-4b47-46ad-9bf4-525d8539bfe6)
 | Halaman Detail |
-| Gambar Tampilan iOS | ![iPadMini-164-Settings](https://github.com/realxnesia/Fructus/assets/44283430/e5fec42b-3982-4ecb-a4d3-b04bd25b3be6)
+| ![iPhone14-Promax-Settings](https://github.com/realxnesia/Fructus/assets/44283430/f3c1fb88-c8e0-4289-899b-91aab2d415c9)
+ | ![iPadMini-164-Settings](https://github.com/realxnesia/Fructus/assets/44283430/e5fec42b-3982-4ecb-a4d3-b04bd25b3be6)
  | Halaman Setting |
 
 ## Cara Menggunakan Aplikasi
@@ -51,13 +55,13 @@ Berikut adalah contoh persyaratan sistem yang diperlukan untuk menjalankan aplik
 
 Sebelum menginstal dan menggunakan aplikasi Fructus, pastikan perangkat Anda memenuhi persyaratan berikut:
 
-### Perangkat iOS
+## Perangkat iOS
 
 - Versi iOS minimal: iOS 14.
 - Ruang penyimpanan minimum: 100MB.
 - Perangkat iPhone atau iPad dengan kemampuan menjalankan iOS 14.
 
-### Perangkat iPadOS
+## Perangkat iPadOS
 
 - Versi iPadOS minimal: iPadOS 14.
 - Ruang penyimpanan minimum: 100MB.
